@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.btn{
+  padding: 10px;
+  color: red;
+  background-color: yellow;
+  font-weight: 600;
+   transition: transform 0.3s ease-in-out;
+}
+.btn:hover{
+  background-color: red;
+  color: white;
+ 
+   transform: scale(1.1);
+}
+.ha{
+  text-align: center;
+  font-weight: 700;
+  border:solid 1px;
+  background-color:#fff011;
+  width: 100%;
+  padding:20px;
+  margin:10px;
+}
+.jj{
+  background-color:#87ceeb;
+}
