@@ -1,0 +1,22 @@
+.qw{
+ text-align: center;
+  border: 2px;
+  margin:2px;
+  background-color:skyblue;
+  padding: 2px;
+}
+.rr{
+  margin:5px;
+}
+.rt{
+  margin:5px;
+  display: flex;
+  gap: 5px;
+  flex-direction: justify;
+}
+.ry{
+  display:flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 800px;
+}
