@@ -42,9 +42,9 @@
   margin:15px;
 }
 .oo{
-  margin:2px;
-  border:1px;
-  color: white;
+  margin: 20px;
+  border: 1px;
+  color: black;
 }
 
 .ol{
@@ -60,5 +60,6 @@
   width: 100%px;
   padding: 5px;
   margin:1px;
+  border: none;
 }
 
