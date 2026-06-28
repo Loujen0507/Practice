@@ -1,24 +1,40 @@
+*{
+  text-align: justify;
+  font-family:'Times New Roman', Times, serif;
+}
 .qw{
  text-align: center;
-  border: 2px;
-  margin:2px;
+  margin: 1px;
+  padding: 10px;
   background-color:skyblue;
-  padding: 2px;
+  border-bottom: 15px solid darkblue;
 }
 .rr{
-  margin:5px;
+  padding: 2px;
+  border: 2px solid;
+ background-color: azure;
+ border-radius: 10px;
 }
-.rt{
-  margin:5px;
+.rl{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  width: 90%;
+  max-width: 320px;
+  border: none;
+}
+.ro{
   display: flex;
   gap: 5px;
-  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 320px;
+  align-items: center;
+  border: none;
+  margin-top: 20px;
 }
-.ry{
-  display:flex;
-  flex-direction: column;
-  gap: 6px;
-  width: 800px;
+.blocky{
+  display: block;
 }
 .qq{
   background-color: blue;
@@ -27,14 +43,58 @@
   border-radius: 2px;
   border: 1px;
   height: 30px;
-  width: 57px;
+  width: 100%;
+  max-width: 60px;
+  display: block;
   transition: transform 0.3s ease-in-out;
+  box-shadow: 0 5px 5px grey;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
 }
 .qq:hover{
   transform: scale(1.1);
   color: white;
   background-color:red;
 }
+.qq:active{
+  background-color: skyblue;
+  color:black;
+}
 .ty{
  color: red;
 }
+.comms{
+  border: 1px solid grey;
+  color:black;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 7px;
+}
+.gap{
+  gap: 10px;
+  display: flex;
+}
+.ll{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.flex{
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+input, textarea, select{
+  width: 100%;
+ max-width: 100%;
+ box-sizing: border-box;
+}
+body{
+  background-color:antiquewhite;
+  margin: 0px;
+  padding: 0px;
+}
+main{
+  margin: 20px;
+}
+
