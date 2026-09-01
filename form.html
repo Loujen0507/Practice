@@ -5,35 +5,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="form.css">
-  <title>Practice</title>
+ <title>Practice</title>
+  <meta charset="UTF-8">
+  <title>Your Website Title</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3D9UKY5bXZzThUCAZI22xQZErx3zeZzafM1LjNG4iRQ&s=10" type="image/x-icon">
 </head>
 
-<body>
+<body >
   <header>
     <h1 class="qw">Survey Form</h1>
   </header>
-  <main>
-    <section>
+  <div class="let">
+  <main style="margin-block-start: 6rem;">
+   <section>
       <h3 class="ll">Welcome to Hotel Fieldset</h3>
-      <p class="ll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum aspernatur soluta officia architecto recusandae! Minus explicabo enim cupiditate eveniet quis cum sed aut soluta placeat vel. Officiis, voluptas cupiditate! ipsum dolor sit amet consectetur adipisicing elit. Nisi amet distinctio, doloribus nobis ipsa accusamus praesentium minima earum libero laudantium dignissimos. Aliquam cum dicta, ipsa quaerat ad in odio qui?</p>
+      <p class="ll kt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas harum aspernatur soluta officia architecto recusandae! Minus explicabo enim cupiditate eveniet quis cum sed aut soluta placeat vel. Officiis, voluptas cupiditate! ipsum dolor sit amet consectetur adipisicing elit. Nisi amet distinctio, doloribus nobis ipsa accusamus praesentium minima earum libero laudantium dignissimos. Aliquam cum dicta, ipsa quaerat ad in odio qui?</p>
     </section>
-    <form class="rr">
-      <h4 class="ll">Information of User</h4>
-      <p class="ll"><strong class="ty">Direction:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet quam quaerat dicta tenetur reiciendis minima ab, aliquid est consequuntur illum iure aut autem eligendi esse nihil in delectus cupiditate.</p>
-      <div class="flex">
+   
+  <div class="div-last">
+    <section>
+      <article>
+        <h3 class="ll">Hotel's Background</h3>
+        <p class="ll kt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fuga numquam perspiciatis exercitationem modi pariatur! Non ipsam quia distinctio, atque quibusdam ducimus. Enim, nulla. Id, commodi! Doloremque accusamus incidunt voluptatibus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maxime tempora ratione reiciendis nemo ipsum culpa cupiditate omnis perspiciatis vitae nihil, quisquam sequi perferendis doloribus eligendi accusamus. Ut, earum natus.</p>
+      </article>
+
+      <article>
+        <h3 class="ll">Hotel Information</h3>
+        <p class="ll kt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fuga numquam perspiciatis exercitationem modi pariatur! Non ipsam quia distinctio, atque quibusdam ducimus. Enim, nulla. Id, commodi! Doloremque accusamus incidunt voluptatibus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maxime tempora ratione reiciendis nemo ipsum culpa cupiditate omnis perspiciatis vitae nihil, quisquam sequi perferendis doloribus eligendi accusamus. Ut, earum natus.</p>
+        <a class="ll"href="#">learn more.</a>
+      </article>
+    </section>
+  </div>
+  <hr>
+ <div class="plak">
+ <h4 class="ll">Information of User</h4>
+      <p class="ll kt"><strong class="ty">Direction:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eveniet quam quaerat dicta tenetur reiciendis minima ab, aliquid est consequuntur illum iure aut autem eligendi esse nihil in delectus cupiditate.</p>
+     </div>
+  
+     <div class="flex">
+      <form id="my-form"> 
+      <div class="rr">
       <fieldset class="rl">
-        <legend>Fieldset1</legend>
+        <legend style="padding-inline-start: 0.2em;">Fieldset1</legend>
         <label for="name">Name:</label>
-        <input type="text" name="name" id="name" required placeholder="e.g,mcdonald">
+        <input class="love" type="text" name="name" id="name" required placeholder="e.g,mcdonald">
         <label for="address">Address:</label>
-        <input type="text" name="address" id="address" required>
+        <input  class="love" type="text" name="address" id="address" required>
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required placeholder="email@.com">
+        <input  class="love" type="email" name="email" id="email" required placeholder="email@.com">
         <label for="age">Age:</label>
-        <input type="number" name="age" id="age" min="1" max="100">
+        <input class="love" type="number" name="age" id="age" min="1" max="100">
       </fieldset>
-      <fieldset class="ro">
-        <legend>Fieldset2</legend>
+
+      <fieldset class="fieldset3">
         <label>Country:</label>
         <select class="rt">
           <option>Phillipines</option>
@@ -45,13 +69,6 @@
           <option>Monggolia</option>
           <option>South Korea</option>
         </select>
-        <div class="gap">
-          <input type="radio" name="gender" id="female" value="female">
-          <label for="female">Female</label>
-          <input type="radio" name="gender" id="male" value="male" >
-          <label for="male">Male</label>
-        </div>
-        <div class="gap">
           <label>Experience:</label>
           <select class="rt">
             <option>Excellent</option>
@@ -60,23 +77,48 @@
             <option>Bad</option>
             <option>Very Bad</option>
           </select>
+ <label>Country:</label>
+        <select class="rt">
+          <option>Phillipines</option>
+          <option>Japan</option>
+          <option>America</option>
+          <option>Canada</option>
+          <option>Thailand</option>
+          <option>Switzerland</option>
+          <option>Monggolia</option>
+          <option>South Korea</option>
+        </select>
+          <label>Experience:</label>
+          <select class="rt">
+            <option>Excellent</option>
+            <option>Very Good</option>
+            <option>Good</option>
+            <option>Bad</option>
+            <option>Very Bad</option>
+          </select>
+           <div class="mafle">
+          <input type="radio" name="gender" id="female" value="female">
+          <label for="female">Female</label>
         </div>
-      </fieldset>
+        <div class="mafle">
+          <input type="radio" name="gender" id="male" value="male">
+          <label for="male">Male</label>
+          </div>
+        </fieldset>
+        </div>
+        <div class="lopp">
       <textarea cols="97" rows="10" minlength="10" class="comms" maxlength="100" placeholder="Comment goes here..."></textarea>
-      </div>
-      <button type="submit" class="qq ll">Submit</button>
+    </div>
     </form>
-    <section>
-      <article>
-        <h3 class="ll">Hotel's Background</h3>
-        <p class="ll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fuga numquam perspiciatis exercitationem modi pariatur! Non ipsam quia distinctio, atque quibusdam ducimus. Enim, nulla. Id, commodi! Doloremque accusamus incidunt voluptatibus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maxime tempora ratione reiciendis nemo ipsum culpa cupiditate omnis perspiciatis vitae nihil, quisquam sequi perferendis doloribus eligendi accusamus. Ut, earum natus.</p>
-      </article>
-      <article>
-        <h3 class="ll">Hotel Information</h3>
-        <p class="ll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fuga numquam perspiciatis exercitationem modi pariatur! Non ipsam quia distinctio, atque quibusdam ducimus. Enim, nulla. Id, commodi! Doloremque accusamus incidunt voluptatibus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maxime tempora ratione reiciendis nemo ipsum culpa cupiditate omnis perspiciatis vitae nihil, quisquam sequi perferendis doloribus eligendi accusamus. Ut, earum natus.</p>
-        <a class="ll"href="#">learn more.</a>
-      </article>
-    </section>
+  </div>
   </main>
+  <aside> 
+    <h3 style="text-align: center; margin-inline: 0.5rem;">Additional Information</h3>
+  </aside>
+</div>
+  <div class="ops">
+      <button type="submit" class="qq" form="my-form">Submit</button>
+    </div>
+  <footer></footer>
 </body>
 </html>

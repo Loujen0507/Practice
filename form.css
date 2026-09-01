@@ -8,12 +8,11 @@
   padding: 10px;
   background-color:skyblue;
   border-bottom: 15px solid darkblue;
-  margin-top: 0%;
+  margin-block-start: 0%;
 }
 .rr{
   padding: 2px;
   border: 2px solid;
- background-color: azure;
  border-radius: 10px;
 }
 .rl{
@@ -40,13 +39,12 @@
   color: white;
   cursor: pointer;
   border-radius: 2px;
-  border: 1px;
+  border: 1px solid rgb(150, 133, 133);
   height: 30px;
   width: 100%;
   max-width: 60px;
   display: block;
   transition: transform 0.3s ease-in-out;
-  box-shadow: 0 5px 5px grey;
   margin-bottom: 10px;
   font-size: 15px;
   font-weight: bold;
@@ -55,6 +53,8 @@
   transform: scale(1.1);
   color: white;
   background-color:red;
+  box-shadow: 0px 1px 2px 1px rgb(218, 203, 203);
+  border: none;
 }
 .qq:active{
   background-color: skyblue;
@@ -75,18 +75,14 @@
   display: flex;
 }
 .ll{
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
 }
 .flex{
   flex-wrap: wrap;
 }
-input, textarea, select{
-  width: 100%;
- max-width: 100%;
- box-sizing: border-box;
-}
 body{
+  min-height: 100dvh;
   background-color:antiquewhite;
   margin: 0px;
   padding: 0px;
@@ -94,65 +90,73 @@ body{
 main{
   margin: 20px;
 }
-
+header{
+position: fixed;
+top: 0%;
+right: 0%;
+left: 0%;
+}
+a:link{
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+a:hover{
+  color:rgb(203, 18, 18);
+}
+a:visited{
+  color:rgb(6, 52, 139)
+}
 @media screen and (min-width: 768px) {
   .rl{
-    max-width: 50%;
+    max-width: 100%;
     border: 2px solid;
     background-color: rgba(246, 249, 249, 0.793);
     border-radius: 20px;
-    margin: 5px auto;
+    margin: 3px auto;
+    border-bottom: 1px solid;
   }
 .rr{
-display: flex;
-    margin: 10px auto;
-    border-radius: 20px;
-    background-color:rgb(146, 201, 235);
     border: none;
+  padding: 2rem;
  }
- input, label{
-height: 20px;
-margin-top: 3px;
-}
 .mafle{
-    display: flex;  
-    text-align: left;
-    margin-left: 5px;
-    padding-right: 15px;
-    vertical-align: left;
     gap: 10px;
   }
-.flex{
-    border: 2px solid;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 15px auto;
-    background-color:rgb(146, 201, 235);
-    border-radius: 20px;
-    max-width: 70%;
+
+  .flex{
+    padding-block: 10px;
+    margin: 0px auto 15px ;
   }
  .fieldset3{
-   padding-top: 20px;
+  display: flex;
+  place-items: center;
+  place-content: center;
+  gap: 0.8em;
+   padding-block-start: 10px;
+   padding-inline: 1.5rem;
     border: 2px solid;
     background-color: rgba(246, 249, 249, 0.793);
     border-radius: 20px;
-    max-width: 50%;
+    place-self: center;
+    border-top: 1px solid;
   }
    .personal{
     max-width: 200px;
 height: 200px;
   }
 .comms{
-    max-width: 50%;
-    margin-bottom: 10px;
-    margin-left: 25px;
-    height: 100px;
-    background-color:rgb(239, 250, 250);
+    max-width: 95%;
+    min-width: 95%;
+    place-self: center;
+    margin-block-end: 5px;
+    margin-inline: 0.7rem;
+    background-color: white;
+    padding: 0.5rem;
+    max-height: fit-content;
+    min-height: 100px;
   }
 .lopp{
-    display: block;
-    justify-content: center;
-    margin-left: 25px;
+    margin-inline-start: 25px;
   }
 .kt{
     text-indent: 15px;
@@ -160,43 +164,68 @@ height: 200px;
   }
  .rt{
   height: 25px;
-  margin-top: 5px;
-margin-bottom: 5px;
+  margin-block: 5px;
  }
 .qq{
-    font-size: 20px;
     background-color: blue;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    max-width: 95px;
-    margin-left: 25px;
+    padding-inline: 0.4rem;
+    padding-block: 0.5rem;
+    max-width: 5rem;
     border-radius: 9px;
+    display: flex;
+    place-items: center;
+    place-content: center;
+  font-size: large;
+  font-style: normal;
+  height: auto;
+  }
+  .ops{
+    display: flex;
+    /*padding-inline-start: 90%;*/
+    place-content: flex-end;
   }
 .div-last{
-    margin: 2rem;
+    margin: 1rem;
     padding: 1rem;
    }
  .make{
-    margin-top: 1.6rem;
-    margin-left: 2rem
+    margin-block-start: 1.6rem;
+    margin-inline-start: 2rem
    }
  main{
 max-width: 80%;
 margin: 5px auto;
-padding: 1rem 3rem;
+padding: 1rem 3rem 0.1rem 3rem;
 background-color: burlywood;
 border-radius: 20px;
 
  }
   body{
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTKy0v6-VF8TVC3iKLtm1Pk-7vyYVkXhInSO5vrkSbEg&s=10');
+    ;
   }
 hr{
   background-color: black;
   height: 2px;
   border: none;
 }
+.let{
+  display: flex;
+  flex-direction: row-reverse;
 }
-
+.love{
+  border-radius: 7px;
+  border: 1px solid;
+  padding: 0.2rem 0.5rem;
+  margin-inline: 0.8rem;
+  width: 100%;
+}
+aside{
+  background-color: antiquewhite;
+  width: 50%;
+  margin-inline-end: 1em;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-block-start: 4.4rem;
+}
+}
