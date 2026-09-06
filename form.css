@@ -82,6 +82,12 @@
 .flex{
   flex-wrap: wrap;
 }
+.let1{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  padding-inline-end: 1rem;
+}
 body{
   min-block-size: 100vh;
   background-color:antiquewhite;
@@ -111,9 +117,9 @@ left: 0%;
 .aside-content{
   padding: 10px;
   text-align: center;
-  gap: 30px;
 }
   .add1{
+    margin-block-start: 10px;
     inline-size: 90%;
     margin-inline: 1em;
     block-size: 1.6rem;
@@ -123,18 +129,25 @@ left: 0%;
     color: black;
   }
   .add2{
-    padding-block-start: 20px;
-    padding-inline: 1rem;
-    border-top: 1px solid;
+    padding-block-start: 10px;
+    padding-inline: 1.5rem;
 }
 .menu{
   font-size: 1.3rem;  
-  margin-block: 1.5rem;
+  margin-block: 1.7rem;
   text-decoration: none;
   display: flex;
   flex-direction: column;
     cursor: pointer;
     color: black;
+    padding-inline: 0.5rem;
+}
+.menu:hover{
+  color: rgb(238, 233, 233);
+  transform: scale(1.1);
+  transform: translateX(5px);
+  box-shadow: 0px 1px 2px 1px rgb(218, 203, 203);
+  inline-size: 90%;
 }
 .span1{
   font-size: 2rem;
@@ -149,10 +162,7 @@ left: 0%;
   block-size: 20px;
   height: 20px;
 }
-.let{
-  display: flex;
-  flex-direction: row-reverse;
-}
+
 @media screen and (min-width: 768px) {
   .rl{
     max-width: 100%;
@@ -257,7 +267,7 @@ hr{
   height: 2px;
   border: none;
 }
-.let{
+.let1{
   display: flex;
   flex-direction: row-reverse;
 }
@@ -270,11 +280,12 @@ hr{
 }
 aside{
   background: linear-gradient(to top,rgb(238, 180, 180), rgb(26, 101, 11), rgb(112, 139, 112));
-  width: 50%;
+  inline-size: 35%;
   margin-inline-end: 1em;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-block-start: 4.4rem;
+
 }
 
 }
