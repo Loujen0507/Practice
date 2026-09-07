@@ -4,12 +4,19 @@
   font-family: Arial;
 }
 .qw{
- text-align: center;
+  color: rgb(249, 249, 249);
   padding: 10px;
-  background-color:skyblue;
-  border-bottom: 15px solid darkblue;
   margin-block-start: 0%;
-
+}
+.logo1{
+  border-radius: 3rem;
+  margin: 7px;
+}
+.logo{
+  text-align: center;
+  gap: 10px;
+  margin-inline-start: 1rem;
+  border: 1px solid;
 }
 .rr{
   padding: 2px;
@@ -85,20 +92,25 @@
 .let1{
   display: flex;
   flex-direction: row-reverse;
-  gap: 10px;
   padding-inline-end: 1rem;
 }
 body{
+  border: 1px solid;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   min-block-size: 100vh;
   background-color:antiquewhite;
   margin: 0px;
   padding: 0px;
 }
 main{
-  margin: 20px;
-  flex: 1;
+  border: 1px solid red;
 }
 header{
+  display: flex;
+  block-size: 60px;
+  background-color: rgb(6, 6, 6);
+  border: 2px solid;
 position: fixed;
 top: 0%;
 right: 0%;
@@ -148,6 +160,9 @@ left: 0%;
   transform: translateX(5px);
   box-shadow: 0px 1px 2px 1px rgb(218, 203, 203);
   inline-size: 90%;
+}
+.menu:active{
+  color:rgb(6, 52, 139);
 }
 .span1{
   font-size: 2rem;
@@ -250,17 +265,16 @@ height: 200px;
     margin-inline-start: 2rem
    }
  main{
-max-width: 80%;
-margin: 5px auto;
+  max-inline-size: 82%;
 padding-block: 1rem;
 padding-inline: 3rem;
-background-color: burlywood;
+background-color: rgb(212, 207, 199);
 border-radius: 20px;
+  margin-block-start: 3.9rem;
+
  }
   body{
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTKy0v6-VF8TVC3iKLtm1Pk-7vyYVkXhInSO5vrkSbEg&s=10');
-    ;
-    background-size: cover;
+    background-color: rgb(16, 15, 15);
   }
 hr{
   background-color: black;
@@ -284,8 +298,7 @@ aside{
   margin-inline-end: 1em;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  margin-block-start: 4.4rem;
+  margin-block-start: 3.9rem;
 
 }
-
 }
