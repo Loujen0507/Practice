@@ -1,1 +1,1 @@
- My first pracice in creating Website
+ My first practice in creating Website
