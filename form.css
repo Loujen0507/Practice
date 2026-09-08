@@ -16,24 +16,6 @@
   text-align: center;
   gap: 10px;
   margin-inline-start: 1rem;
-  border: 1px solid;
-}
-.rr{
-  padding: 2px;
-  border: 2px solid;
- border-radius: 10px;
-}
-.rl{
-  display:flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  width: 90%;
-  max-width: 320px;
-  border: none;
-}
-.ro{
-  display: flex;
-  gap: 5px;
   width: 90%;
   max-width: 320px;
   border: none;
@@ -80,7 +62,24 @@
 }
 .gap{
   gap: 10px;
+  border: 1px solid;
+}
+.rr{
+  padding: 2px;
+  border: 2px solid;
+ border-radius: 10px;
+}
+.rl{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  width: 90%;
+  max-width: 320px;
+  border: none;
+}
+.ro{
   display: flex;
+  gap: 5px;
 }
 .ll{
   margin-inline-start: 10px;
@@ -96,15 +95,10 @@
 }
 body{
   border: 1px solid;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
   min-block-size: 100vh;
   background-color:antiquewhite;
   margin: 0px;
   padding: 0px;
-}
-main{
-  border: 1px solid red;
 }
 header{
   display: flex;
@@ -173,6 +167,7 @@ left: 0%;
   margin-inline-start: 0.5rem;
 }
 .straw{
+  margin-block-start: 1rem;
   background-color: rgb(0, 0, 0);
   block-size: 20px;
   height: 20px;
@@ -265,25 +260,20 @@ height: 200px;
     margin-inline-start: 2rem
    }
  main{
-  max-inline-size: 82%;
+    max-inline-size: 82%;
 padding-block: 1rem;
 padding-inline: 3rem;
-background-color: rgb(212, 207, 199);
-border-radius: 20px;
-  margin-block-start: 3.9rem;
-
+background-color: rgb(231, 216, 191);
+  margin-block-start: 2.5rem;
+  border: 1px solid black;
  }
   body{
-    background-color: rgb(16, 15, 15);
+    background-color: rgb(222, 223, 208);
   }
 hr{
   background-color: black;
   height: 2px;
   border: none;
-}
-.let1{
-  display: flex;
-  flex-direction: row-reverse;
 }
 .love{
   border-radius: 7px;
@@ -293,12 +283,24 @@ hr{
   width: 100%;
 }
 aside{
-  background: linear-gradient(to top,rgb(238, 180, 180), rgb(26, 101, 11), rgb(112, 139, 112));
+  background: linear-gradient(to top,rgb(238, 180, 180),
+   rgb(26, 101, 11), rgb(112, 139, 112));
   inline-size: 35%;
-  margin-inline-end: 1em;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  margin-block-start: 3.9rem;
-
+  margin-inline-end: 0.5em;
+  border-top-right-radius: 10px;
+  margin-block-start: 2.4rem;
+}
+.image-2{
+  width: 100;
+  grid-area: 1;
+}
+.image-1{
+  display: grid;
+  grid-template-areas: 
+    "1 1 1" 
+  
+  ;
+  width: 100%;
+border: 1px solid;
 }
 }
