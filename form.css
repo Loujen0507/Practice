@@ -290,18 +290,21 @@ aside{
   border-top-right-radius: 10px;
   margin-block-start: 2.4rem;
 }
-.image-2{
-  width: 100;
-  grid-area: 1;
+.image-1{
+border-top-left-radius: 2rem;
+border-bottom-left-radius: 2rem;
+}
+
+.imageAll{
+  border: 1px solid;
+}
+.image-3{
+border-top-right-radius: 2rem;
+border-bottom-right-radius: 2rem;
+inline-size: auto;
 }
 .image-1{
-  display: grid;
-  grid-template-areas: 
-    "1 1 1" 
-  
-  ;
-  rule: 1px solid;
-  width: 100%;
-border: 1px solid;
+  display: flex;
+
 }
 }
