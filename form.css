@@ -168,7 +168,8 @@ left: 0%;
 }
 .straw{
   margin-block-start: 1rem;
-  background-color: rgb(204, 187, 187);
+  background-color: rgba(8, 8, 8, 0.873);
+  color:rgba(240, 248, 255, 0.833)
 }
 
 @media screen and (min-width: 768px) {
@@ -267,6 +268,9 @@ background-color: rgb(231, 216, 191);
  }
   body{
     background-color: rgb(222, 223, 208);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-block-size: 100vh;
   }
 hr{
   background-color: black;
@@ -309,5 +313,31 @@ inline-size: auto;
   text-align: center;
   font-size: xx-large;
   text-shadow: 1px 1px 1px 3px rgb(124, 118, 118);
+}
+.box-1{
+  border: 1px solid;
+  inline-size: 35%;
+  padding: 1em;
+  background-color: rgb(220, 227, 233);
+  text-align: justify;
+  border-radius: 1rem;
+}
+.border{
+  display: flex;
+  border: 1px solid;
+  gap: 3rem;
+  padding-inline: 1em;
+  block-size: 10%;
+}
+.setting{
+  inline-size: 80%;
+  margin-inline-start: 3rem;
+  display: flex;
+  place-content: end;
+  padding-inline: 0.5em;
+  padding-block: 0.6em;
+  color:rgb(180, 175, 175);
+  text-decoration: none;
+  font-size: 1.3em;
 }
 }
