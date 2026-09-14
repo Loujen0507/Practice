@@ -169,9 +169,26 @@ left: 0%;
 .straw{
   margin-block-start: 1rem;
   background-color: rgba(8, 8, 8, 0.873);
-  color:rgba(240, 248, 255, 0.833)
+  color:rgba(240, 248, 255, 0.833);
 }
-
+.sites{
+  display: flex;
+  gap: 1.5rem;
+  margin-block: 2rem;
+  margin-inline: 1rem;
+  font-size: 1em;
+}
+.link-sites:link{
+  text-decoration: none;
+}
+.link-sites:visited{
+color: gray;
+}
+.footer1{
+  border: 1px solid rgb(39, 42, 45);
+  padding-inline: 1rem;
+  background-color: rgb(39, 42, 45);
+}
 @media screen and (min-width: 768px) {
   .rl{
     max-width: 100%;
