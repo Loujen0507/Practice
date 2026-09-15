@@ -182,12 +182,21 @@ left: 0%;
   text-decoration: none;
 }
 .link-sites:visited{
-color: gray;
+color: gray; 
 }
 .footer1{
   border: 1px solid rgb(39, 42, 45);
   padding-inline: 1rem;
   background-color: rgb(39, 42, 45);
+}
+.das{
+border: 1px solid;
+  padding: 1em; 
+  display: grid;
+grid-template-columns: repeat(4, 1fr);
+}
+.product{
+  border: 1px solid;
 }
 @media screen and (min-width: 768px) {
   .rl{
