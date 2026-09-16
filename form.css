@@ -170,16 +170,25 @@ left: 0%;
   margin-block-start: 1rem;
   background-color: rgba(8, 8, 8, 0.873);
   color:rgba(240, 248, 255, 0.833);
+  padding-block-end: 1rem;
+}
+.site{
+  display: flex;
+  place-content: flex-end;
+  padding-inline-end: 1rem;
 }
 .sites{
   display: flex;
   gap: 1.5rem;
-  margin-block: 2rem;
+  margin-block: 1rem;
   margin-inline: 1rem;
-  font-size: 1em;
+  list-style: none;
 }
-.link-sites:link{
+.link-sites{
   text-decoration: none;
+  font-size: 1.1em;
+  padding: 0.5em;
+
 }
 .link-sites:visited{
 color: gray; 
@@ -189,14 +198,22 @@ color: gray;
   padding-inline: 1rem;
   background-color: rgb(39, 42, 45);
 }
-.das{
-border: 1px solid;
+.da{
+  margin-block-start: 1rem;
   padding: 1em; 
   display: grid;
 grid-template-columns: repeat(4, 1fr);
 }
+.base{
+  place-self: center;
+  display: inline-block;
+  inline-size: 50%;
+}
 .product{
-  border: 1px solid;
+  font-size: 0.87em;
+  list-style: none;
+  padding-inline: 0.8em;
+  margin-block: none;
 }
 @media screen and (min-width: 768px) {
   .rl{
