@@ -213,7 +213,14 @@ grid-template-columns: repeat(4, 1fr);
   font-size: 0.87em;
   list-style: none;
   padding-inline: 0.8em;
-  margin-block: none;
+  margin-block: 0px;
+}
+.kyler{
+  padding: 1em;
+}
+.lou{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
 @media screen and (min-width: 768px) {
   .rl{
