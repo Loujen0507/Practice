@@ -21,77 +21,12 @@
   border: none;
   margin-top: 20px;
 }
-.blocky{
-  display: block;
-}
-.qq{
-  background-color: blue;
-  color: white;
-  cursor: pointer;
-  border-radius: 2px;
-  border: 1px solid rgb(150, 133, 133);
-  height: 30px;
-  width: 100%;
-  max-width: 60px;
-  display: block;
-  transition: transform 0.3s ease-in-out;
-  margin-bottom: 10px;
-  font-size: 15px;
-  font-weight: bold;
-}
-.qq:hover{
-  transform: scale(1.1);
-  color: white;
-  background-color:red;
-  box-shadow: 0px 1px 2px 1px rgb(218, 203, 203);
-  border: none;
-}
-.qq:active{
-  background-color: skyblue;
-  color:black;
-}
-.ty{
- color: red;
-}
-.comms{
-  border: 1px solid grey;
-  color:black;
-  font-size: 15px;
-  font-weight: bold;
-  border-radius: 7px;
-}
-.gap{
-  gap: 10px;
-  border: 1px solid;
-}
-.rr{
-  padding: 2px;
-  border: 2px solid;
- border-radius: 10px;
-}
-.rl{
-  display:flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  width: 90%;
-  max-width: 320px;
-  border: none;
-}
-.ro{
-  display: flex;
-  gap: 5px;
-}
 .ll{
   margin-inline-start: 10px;
   margin-inline-end: 10px;
 }
-.flex{
-  flex-wrap: wrap;
-}
 .let1{
   display: flex;
-  flex-direction: row-reverse;
-  padding-inline-end: 1rem;
 }
 body{
   border: 1px solid;
@@ -137,6 +72,8 @@ left: 0%;
   .add2{
     padding-block-start: 10px;
     padding-inline: 1.5rem;
+    list-style: none;
+
 }
 .menu{
   font-size: 1.3rem;  
@@ -170,7 +107,6 @@ left: 0%;
   margin-block-start: 1rem;
   background-color: rgba(8, 8, 8, 0.873);
   color:rgba(240, 248, 255, 0.833);
-  padding-block-end: 1rem;
 }
 .site{
   display: flex;
@@ -223,90 +159,13 @@ grid-template-columns: repeat(4, 1fr);
   grid-template-columns: 1fr 3fr;
 }
 @media screen and (min-width: 768px) {
-  .rl{
-    max-width: 100%;
-    border: 2px solid;
-    background-color: rgba(246, 249, 249, 0.793);
-    border-radius: 20px;
-    margin: 3px auto;
-    border-bottom: 1px solid;
-  }
-.rr{
-    border: none;
-  padding: 2rem;
- }
-.mafle{
-    gap: 10px;
-  }
-
-  .flex{
-    padding-block: 10px;
-    margin: 0px auto 15px ;
-  }
- .fieldset3{
-  display: flex;
-  place-items: center;
-  place-content: center;
-  gap: 0.8em;
-   padding-block-start: 10px;
-   padding-inline: 1.5rem;
-    border: 2px solid;
-    background-color: rgba(246, 249, 249, 0.793);
-    border-radius: 20px;
-    place-self: center;
-    border-top: 1px solid;
-  }
-   .personal{
-    max-width: 200px;
-height: 200px;
-  }
-.comms{
-    max-width: 95%;
-    min-width: 95%;
-    place-self: center;
-    margin-block-end: 5px;
-    margin-inline: 0.7rem;
-    background-color: white;
-    padding: 0.5rem;
-    max-height: fit-content;
-    min-height: 100px;
-  }
-.lopp{
-    margin-inline-start: 25px;
-  }
 .kt{
     text-indent: 15px;
     font-size: 17px;
   }
- .rt{
-  height: 25px;
-  margin-block: 5px;
- }
-.qq{
-    background-color: blue;
-    padding-inline: 0.4rem;
-    padding-block: 0.5rem;
-    max-width: 5rem;
-    border-radius: 9px;
-    display: flex;
-    place-items: center;
-    place-content: center;
-  font-size: large;
-  font-style: normal;
-  height: auto;
-  }
-  .ops{
-    display: flex;
-    /*padding-inline-start: 90%;*/
-    place-content: flex-end;
-  }
 .div-last{
     margin: 1rem;
     padding: 1rem;
-   }
- .make{
-    margin-block-start: 1.6rem;
-    margin-inline-start: 2rem
    }
  main{
     max-inline-size: 82%;
@@ -318,31 +177,17 @@ background-color: rgb(231, 216, 191);
  }
   body{
     background-color: rgb(222, 223, 208);
-    display: grid;
-    grid-template-rows: auto 1fr auto;
     min-block-size: 100vh;
   }
-hr{
-  background-color: black;
-  height: 2px;
-  border: none;
-}
-.love{
-  border-radius: 7px;
-  border: 1px solid;
-  padding: 0.2rem 0.5rem;
-  margin-inline: 0.8rem;
-  width: 100%;
-}
-aside{
+.sidebar{
   background: linear-gradient(to top,rgb(238, 180, 180),
    rgb(26, 101, 11), rgb(112, 139, 112));
-  inline-size: 35%;
   margin-inline-end: 0.5em;
   border-top-right-radius: 10px;
   margin-block-start: 2.4rem;
+  flex-grow: 1;
 }
-.image-1{
+.images-1{
 border-top-left-radius: 2rem;
 border-bottom-left-radius: 2rem;
 }
@@ -350,14 +195,13 @@ border-bottom-left-radius: 2rem;
 .imageAll{
   border: 1px solid;
 }
-.image-3{
+.images-3{
 border-top-right-radius: 2rem;
 border-bottom-right-radius: 2rem;
 inline-size: auto;
 }
 .image-1{
   display: flex;
-
 }
 .main-header{
   text-align: center;
