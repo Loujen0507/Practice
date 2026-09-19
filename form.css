@@ -169,7 +169,6 @@ grid-template-columns: repeat(4, 1fr);
    }
  main{
     max-inline-size: 82%;
-padding-block: 1rem;
 padding-inline: 3rem;
 background-color: rgb(231, 216, 191);
   margin-block-start: 2.5rem;
@@ -215,13 +214,17 @@ inline-size: auto;
   background-color: rgb(220, 227, 233);
   text-align: justify;
   border-radius: 1rem;
+  display: flex;
+  place-items: center;
 }
 .border{
   display: flex;
   border: 1px solid;
   gap: 3rem;
   padding-inline: 1em;
-  block-size: 10%;
+ padding-block: 1rem;
+ margin-block-end: 1em;
+
 }
 .setting{
   inline-size: 80%;
