@@ -112,6 +112,7 @@ left: 0%;
   display: flex;
   place-content: flex-end;
   padding-inline-end: 1rem;
+  margin-block: 1rem;
 }
 .sites{
   display: flex;
@@ -244,5 +245,16 @@ inline-size: auto;
   place-items: flex-end;
   padding-block-end: 1em;
   gap: 1rem;
+}
+.apple:link{
+  text-decoration: none;
+  color: rgb(252, 244, 244);
+}
+.apple:visited{
+  text-decoration: none;
+  color: rgb(86, 9, 117);
+}
+.product li{
+  padding: 0.2em;
 }
 }
