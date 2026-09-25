@@ -184,7 +184,8 @@ grid-template-columns: repeat(4, 1fr);
   font-size: 1.3em;
 }
 .imageAll{
-  width: 100%;
+  width: 90%;
+  place-self: center;
 }
 .images-1{
 border-top-left-radius: 1rem;
@@ -195,6 +196,10 @@ border-bottom-left-radius: 1rem;
 border-bottom-right-radius: 1rem;
 }
 
+.image-1{
+  display: flex;
+  flex-direction: column;
+}
 .straw{
   margin-block-start: 1rem;
   background-color: rgba(8, 8, 8, 0.873);
@@ -229,11 +234,12 @@ background-color: rgb(231, 216, 191);
   flex-grow: 1;
 }
 .images-1{
+border-top-right-radius: 0rem;
 border-top-left-radius: 2rem;
 border-bottom-left-radius: 2rem;
 }
-
 .images-3{
+border-bottom-left-radius: 0rem;
 border-top-right-radius: 2rem;
 border-bottom-right-radius: 2rem;
 }
@@ -242,6 +248,7 @@ border-bottom-right-radius: 2rem;
 }
 .image-1{
   display: flex;
+  flex-direction: row;
 }
 .main-header{
   text-align: center;
