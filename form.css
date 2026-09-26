@@ -68,9 +68,10 @@ left: 0%;
 .apple:link{
   text-decoration: none;
   font-size: 1.1rem;
+  color: rgb(149, 34, 140);
 }
 .apple:hover{
-  color:rgb(203, 18, 18);
+  color:rgb(205, 33, 33);
 }
 .apple:visited{
   color:rgb(6, 52, 139)
@@ -143,11 +144,6 @@ left: 0%;
 }
 .link-sites:visited{
 color: gray; 
-}
-.footer1{
-  border: 1px solid rgb(39, 42, 45);
-  padding-inline: 1rem;
-  background-color: rgb(39, 42, 45);
   display: flex;
   place-content: space-between;
 }
@@ -165,13 +161,19 @@ grid-template-columns: repeat(4, 1fr);
   font-size: 0.87em;
   list-style: none;
   padding-inline: 0.8em;
+  cursor: pointer;
 }
 .kyler{
   padding-block: 2em;
   padding-inline: 1em;
 
 }
-
+.footer1{
+  display: flex;
+  border: 1px solid rgb(39, 42, 45);
+  padding-inline: 1rem;
+  background-color: rgb(39, 42, 45);
+}
 .setting{
   inline-size: 80%;
   margin-inline-start: 3rem;
@@ -204,6 +206,13 @@ border-bottom-right-radius: 1rem;
   margin-block-start: 1rem;
   background-color: rgba(8, 8, 8, 0.873);
   color:rgba(240, 248, 255, 0.833);
+}
+.conds{
+  display: flex;
+  gap: 1em;
+}
+.span1{
+  font-size: 1.2em;
 }
 @media screen and (min-width: 768px) {
 .kt{
@@ -326,5 +335,12 @@ grid-template-columns: repeat(4, 1fr);
   margin-block-start: 1rem;
   background-color: rgba(8, 8, 8, 0.873);
   color:rgba(240, 248, 255, 0.833);
+}
+.footer1{
+  display: flex;
+  border: 1px solid rgb(39, 42, 45);
+  padding-inline: 1rem;
+  background-color: rgb(39, 42, 45);
+  place-content: space-between;
 }
 }
