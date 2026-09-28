@@ -105,6 +105,7 @@ left: 0%;
     cursor: pointer;
     color: black;
     padding-inline: 0.5rem;
+    transition: scale 3s ease-in-out;
 }
 .menu:hover{
   color: rgb(238, 233, 233);
@@ -221,7 +222,6 @@ border-bottom-right-radius: 1rem;
   }
 .div-last{
     margin: 1rem;
-    padding: 1rem;
    }
  main{
     max-inline-size: 82%;
@@ -234,12 +234,14 @@ background-color: rgb(231, 216, 191);
     background-color: rgb(222, 223, 208);
     min-block-size: 100vh;
   }
+
 .sidebar{
   background: linear-gradient(to top,rgb(238, 180, 180),
    rgb(26, 101, 11), rgb(112, 139, 112));
   margin-inline-end: 0.5em;
   border-top-right-radius: 10px;
   margin-block-start: 2.4rem;
+  inline-size: 35%;
   flex-grow: 1;
 }
 .images-1{
@@ -268,11 +270,16 @@ border-bottom-right-radius: 2rem;
   border: 1px solid;
   inline-size: 35%;
   padding: 1em;
-  background-color: rgb(220, 227, 233);
-  text-align: justify;
+  background: linear-gradient(rgb(249, 248, 248), rgb(152, 152, 155));
   border-radius: 1rem;
   display: flex;
+  place-content: center;
   place-items: center;
+  box-shadow: 1px 1px 2px rgb(82, 58, 58);
+  transition: scale 3s ease-in-out;
+}
+.box-1:hover{
+transform: scale(1.05);
 }
 .border{
   display: flex;
@@ -280,6 +287,7 @@ border-bottom-right-radius: 2rem;
   padding-inline: 1em;
  padding-block: 1rem;
  margin-block-end: 1em;
+ border: 1px solid;
 
 }
 .conds{
