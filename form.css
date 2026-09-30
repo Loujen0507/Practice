@@ -143,7 +143,6 @@ grid-template-columns: repeat(4, 1fr);
   font-size: 1.9rem;
   border: none;  
 }
-
 .base{
   display: inline-block;
   inline-size: 50%;
@@ -183,7 +182,25 @@ grid-template-columns: repeat(4, 1fr);
 .aside-content{
   padding: 10px;
   text-align: center;
-  font-size: small;
+  font-size: large;
+}
+.site{
+  display: flex;
+  place-content: flex-end;
+  padding-inline-end: 1rem;
+  margin-block: 1rem;
+}
+.sites{
+  display: flex;
+  gap: 1.5rem;
+  margin-block: 1rem;
+  margin-inline: 1rem;
+  list-style: none;
+}
+.link-sites{
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 0.5em;
 }
   .add1{
     margin-block-start: 10px;
@@ -213,6 +230,25 @@ grid-template-columns: repeat(4, 1fr);
 }
 .let1{
   display: flex;
+}
+.span1{
+  font-size: 2rem;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  block-size: 2rem;
+  margin-inline-start: 0.5rem;
+}
+.setting{
+  inline-size: 80%;
+  margin-inline-start: 3rem;
+  display: flex;
+  place-content: end;
+  padding-inline: 0.5em;
+  padding-block: 0.6em;
+  color:rgb(180, 175, 175);
+  text-decoration: none;
+  font-size: 1.3em;
 }
 @media screen and (max-width: 639px) {
 
@@ -246,8 +282,7 @@ grid-template-columns: repeat(4, 1fr);
 padding-inline: 1rem;
 background-color: rgb(231, 216, 191);
   border: 1px solid black;
-  width: 100%;
-  display: block;
+  inline-size: 100%;
  }
 body{
   border: 1px solid;
@@ -256,6 +291,28 @@ body{
   margin: 0px;
   padding: 0px;
 }
+  .add1{
+    margin-block-start: 10px;
+    inline-size: 90%;
+    margin-inline: 1em;
+    block-size: 1.6rem;
+    border-radius: 5px;
+    border: none;
+    padding-inline: 0.5rem;
+    color: black;
+  }
+  .add2{
+    padding-block-start: 10px;
+    padding-inline: 1rem;
+    list-style: none;
+    display: none;
+
+}
+.aside1{
+  text-align: center;
+   margin-inline: 0.5rem;
+    display: none;
+}
 .sidebar{/*
   background: linear-gradient(to top,rgb(238, 180, 180),
    rgb(26, 101, 11), rgb(112, 139, 112));
@@ -263,7 +320,7 @@ body{
   border-top-right-radius: 10px;
   margin-block-start: 2.4rem;
   inline-size: 35%;*/
-  display: none !important;
+  display: none;
 }
 header{
   display: flex;
@@ -367,7 +424,9 @@ border-top-right-radius: 1rem;
 border-bottom-left-radius: 1rem;
 border-bottom-right-radius: 1rem;
 }
-
+.aside-content{
+  display: none;
+}
 .image-1{
   display: flex;
   flex-direction: column;
@@ -377,12 +436,23 @@ border-bottom-right-radius: 1rem;
   background-color: rgba(8, 8, 8, 0.873);
   color:rgba(240, 248, 255, 0.833);
 }
+.footer1{
+  display: flex;
+  border: 1px solid rgb(39, 42, 45);
+  padding-inline: 1rem;
+  background-color: rgb(39, 42, 45);
+  place-content: space-between;
+}
 .conds{
   display: flex;
   gap: 1em;
 }
 .span1{
   font-size: 1.2em;
+}
+.let1{
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 }
