@@ -11,7 +11,7 @@
     margin: 1rem;
    }
  main{
-    max-inline-size: 82%;
+    max-inline-size: 85%;
 padding-inline: 3rem;
 background-color: rgb(231, 216, 191);
   margin-block-start: 2.5rem;
@@ -98,6 +98,7 @@ transform: scale(1.05);
 }
 .border{
   display: flex;
+flex-direction: row;
   gap: 3rem;
   padding-inline: 1em;
  padding-block: 1rem;
@@ -291,7 +292,7 @@ grid-template-columns: repeat(4, 1fr);
  main{
 padding-inline: 1rem;
 background-color: rgb(231, 216, 191);
-  border: 1px solid black;
+  border: 1px solid rgb(2, 2, 2);
   inline-size: 100%;
  }
 body{
@@ -315,22 +316,24 @@ body{
     padding-block-start: 10px;
     padding-inline: 1rem;
     list-style: none;
-    display: none;
 
 }
 .aside1{
   text-align: center;
    margin-inline: 0.5rem;
-    display: none;
 }
-.sidebar{/*
+.sidebar{
   background: linear-gradient(to top,rgb(238, 180, 180),
    rgb(26, 101, 11), rgb(112, 139, 112));
   margin-inline-end: 0.5em;
   border-top-right-radius: 10px;
   margin-block-start: 2.4rem;
-  inline-size: 35%;*/
-  display: none;
+  inline-size: 35%;
+}
+.main-header{
+  text-align: center;
+  inline-size: 100%;
+  block-size: 5%;
 }
 header{
   display: flex;
@@ -341,6 +344,10 @@ position: fixed;
 top: 0%;
 right: 0%;
 left: 0%;
+}
+.lou{
+  display: grid;
+  grid-template-columns: 1fr;
 }
 .apple:link{
   text-decoration: none;
@@ -434,13 +441,15 @@ border-top-right-radius: 1rem;
 border-bottom-left-radius: 1rem;
 border-bottom-right-radius: 1rem;
 }
-.aside-content{
-  display: none;
-}
 .image-1{
   display: flex;
   flex-direction: column;
 }
+.aside1{
+  text-align: center;
+   margin-inline: 0.5rem;
+  font-size: 1.2rem;
+  }
 .straw{
   margin-block-start: 1rem;
   background-color: rgba(8, 8, 8, 0.873);
@@ -462,7 +471,15 @@ border-bottom-right-radius: 1rem;
 }
 .let1{
   display: flex;
-  flex-direction: column-reverse;
 }
+.border{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-inline: 1em;
+ padding-block: 1rem;
+ margin-block-end: 1em;
+ border: 1px solid;
 
+}
 }
