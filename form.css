@@ -3,6 +3,7 @@
   text-align: justify;
   font-family: Arial;
 }
+/*pc size*/
 .kt{
     text-indent: 15px;
     font-size: 17px; 
@@ -80,6 +81,12 @@ border-bottom-right-radius: 2rem;
   text-align: center;
   font-size: xx-large;
   text-shadow: 1px 1px 1px 3px rgb(124, 118, 118);
+}
+.main-header2{
+  text-align: center;
+  font-size: xx-large;
+  text-shadow: 1px 1px 1px 3px rgb(124, 118, 118);
+  display: none;
 }
 .box-1{
   border: 1px solid;
@@ -262,7 +269,7 @@ grid-template-columns: repeat(4, 1fr);
     display: block;
 }
 @media screen and (max-width: 639px) {
-
+/*mobile size*/
 .qw{
   color: rgb(249, 249, 249);
   padding: 10px;
@@ -286,14 +293,15 @@ grid-template-columns: repeat(4, 1fr);
   margin-top: 20px;
 }
 .ll{
-  margin-inline-start: 10px;
-  margin-inline-end: 10px;
+  margin-inline-start: 0.6em;
+  margin-block-start: 2rem;
+
 }
  main{
 padding-inline: 1rem;
 background-color: rgb(231, 216, 191);
   border: 1px solid rgb(2, 2, 2);
-  inline-size: 100%;
+  max-inline-size: 100%;
  }
 body{
   border: 1px solid;
@@ -329,11 +337,18 @@ body{
   border-top-right-radius: 10px;
   margin-block-start: 2.4rem;
   inline-size: 35%;
+  display: none;
 }
 .main-header{
   text-align: center;
   inline-size: 100%;
   block-size: 5%;
+  display: none;
+}
+.main-header2{
+  text-align: center;
+  inline-size: 100%;
+  display: block;
 }
 header{
   display: flex;
@@ -346,8 +361,8 @@ right: 0%;
 left: 0%;
 }
 .lou{
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column; 
 }
 .apple:link{
   text-decoration: none;
@@ -392,10 +407,10 @@ color: gray;
   place-content: space-between;
 }
 .da{
-  padding-inline: 1em;
-  margin-block-start: 1rem;
   display: grid;
 grid-template-columns: repeat(4, 1fr);
+margin-block-start: 1rem;
+padding-inline: 0.5rem;
 }
 .base{
   display: inline-block;
@@ -408,10 +423,12 @@ grid-template-columns: repeat(4, 1fr);
   cursor: pointer;
 }
 .kyler{
-  padding-block: 2em;
+  padding-block: 1em;
   padding-inline: 1em;
-
 }
+.div-last{
+    margin: 0.5rem;
+   }
 .footer1{
   display: flex;
   border: 1px solid rgb(39, 42, 45);
@@ -436,10 +453,12 @@ grid-template-columns: repeat(4, 1fr);
 .images-1{
 border-top-left-radius: 1rem;
 border-top-right-radius: 1rem;
+border-bottom-left-radius: 0px;
 }
 .images-3{
 border-bottom-left-radius: 1rem;
 border-bottom-right-radius: 1rem;
+border-top-right-radius: 0px;
 }
 .image-1{
   display: flex;
@@ -480,6 +499,5 @@ border-bottom-right-radius: 1rem;
  padding-block: 1rem;
  margin-block-end: 1em;
  border: 1px solid;
-
 }
 }
