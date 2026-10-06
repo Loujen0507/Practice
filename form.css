@@ -27,8 +27,8 @@ background-color: rgb(231, 216, 191);
 header{
   display: flex;
   block-size: 60px;
-  background-color: rgb(6, 6, 6);
-  border: 2px solid;
+  background-color: rgb(1, 1, 1);
+  inline-size: 100%;
 position: fixed;
 top: 0%;
 right: 0%;
@@ -149,7 +149,6 @@ grid-template-columns: repeat(4, 1fr);
   padding: 10px;
   margin-block-start: 0%;
   font-size: 1.9rem;
-  border: none;  
 }
 .base{
   display: inline-block;
@@ -176,14 +175,6 @@ grid-template-columns: repeat(4, 1fr);
   place-content: space-between;
 }
 
-.logo{
-  text-align: center;
-  gap: 10px;
-  margin-inline-start: 1rem;
-  width: 90%;
-  border: none;
-  margin-top: 20px;
-}
 .logo1{
   border-radius: 3rem;
   margin: 7px;
@@ -242,6 +233,7 @@ grid-template-columns: repeat(4, 1fr);
 }
 .let1{
   display: flex;
+  margin-block-start: 1.5rem;
 }
 .span1{
   font-size: 2rem;
@@ -251,16 +243,21 @@ grid-template-columns: repeat(4, 1fr);
   block-size: 2rem;
   margin-inline-start: 0.5rem;
 }
+.klo{
+  cursor: pointer;
+  padding-inline: 0.5rem;
+}
 .setting{
-  inline-size: 80%;
-  margin-inline-start: 3rem;
   display: flex;
+  inline-size: 0;
+  cursor: default;
   place-content: end;
   padding-inline: 0.5em;
   padding-block: 0.6em;
   color:rgb(180, 175, 175);
   text-decoration: none;
   font-size: 1.3em;
+  inline-size: 84%;
 }
 .aside1{
   text-align: center;
@@ -390,8 +387,8 @@ left: 0%;
   display: flex;
   place-content: flex-end;
   padding-inline-end: 1rem;
-  background-color: rgba(61, 66, 70, 0.103);
-
+  background-color: rgba(37, 38, 38, 0.833);
+  margin-block: 0px;
 }
 .sites{
   display: flex;
@@ -406,7 +403,7 @@ left: 0%;
   padding: 0.5em;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 1rem;
-background-color: rgba(232, 222, 222, 0.458);
+background-color: rgba(211, 204, 204, 0.458);
 color:rgb(61, 65, 69)
 }
 .link-sites:visited{
@@ -426,12 +423,13 @@ padding-inline: 0.5rem;
 .product{
   font-size: 0.87em;
   list-style: none;
-  padding-inline: 0.8em;
   cursor: pointer;
+  place-self: center;
 }
 .kyler{
-  padding-block: 1em;
-  padding-inline: 1em;
+  padding-block-start: 1em;
+  padding-inline: 2em;
+  block-size: 4rem;
 }
 .footer2{
   display: flex;
@@ -447,9 +445,8 @@ padding-inline: 0.5rem;
   flex-direction: column;
 }
 .setting{
-  inline-size: 80%;
-  margin-inline-start: 3rem;
   display: flex;
+  inline-size: 0;
   place-content: end;
   padding-inline: 0.5em;
   padding-block: 0.6em;
@@ -460,16 +457,22 @@ padding-inline: 0.5rem;
 .imageAll{
   width: 90%;
   place-self: center;
+  border-radius: 1rem;
 }
-.images-1{
+.images-1{/*
 border-top-left-radius: 1rem;
 border-top-right-radius: 1rem;
 border-bottom-left-radius: 0px;
+*/
+display: none;
 }
 .images-3{
+  /*
 border-bottom-left-radius: 1rem;
 border-bottom-right-radius: 1rem;
 border-top-right-radius: 0px;
+*/
+display: none;
 }
 .image-1{
   display: flex;
@@ -482,10 +485,9 @@ border-top-right-radius: 0px;
   }
 .straw{
   margin-block-start: 1rem;
-  background-color: rgba(8, 8, 8, 0.873);
+  background-color: rgba(5, 5, 5, 0.873);
   color:rgba(240, 248, 255, 0.833);
 }
-
 .conds{
   display: flex;
   gap: 1em;
@@ -493,6 +495,7 @@ border-top-right-radius: 0px;
 }
 .span1{
   font-size: 1.2em;
+  block-size: 0px;
 }
 .let1{
   display: flex;
