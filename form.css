@@ -385,8 +385,8 @@ left: 0%;
 }
 .site{
   display: flex;
-  place-content: flex-end;
-  padding-inline-end: 1rem;
+  place-content: flex-start;
+  padding-inline-start: 0px;
   background-color: rgba(37, 38, 38, 0.833);
   margin-block: 0px;
 }
