@@ -301,6 +301,7 @@ padding-inline: 1rem;
 background-color: rgb(231, 216, 191);
   border: 1px solid rgb(2, 2, 2);
   max-inline-size: 100%;
+  block-size: 100%;
  }
 body{
   border: 1px solid;
@@ -514,8 +515,10 @@ display: none;
 	     display: flex;
          place-self: center;
          place-content: center;
-
+        padding-block: 50%;
          gap: 1rem;
+         margin-block: 2rem;
+         padding-inline: 50%;
          inline-size: 50%;
          position: relative;
 
@@ -547,12 +550,15 @@ display: none;
               place-self: center;
               display: flex;
               border: 1px solid;
+              place-content: center;
               padding: 1em;
-              block-size: 35%;
+              block-size: 95%;
+              inline-size: 55%;
               position: absolute;
               backface-visibility: hidden;
               border-radius: 1rem;
 			  transition: transform 2s ease;
+        padding: 2em;
 
 				
      }
