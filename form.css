@@ -274,10 +274,6 @@ grid-template-columns: repeat(4, 1fr);
   display: flex;
   place-items: center;
 }
-.box-1{
-  border: 1px solid;
-  inline-size: 100%;
-}
 .logo1{
   border-radius: 3rem;
   margin: 7px;
@@ -459,19 +455,11 @@ padding-inline: 0.5rem;
   place-self: center;
   border-radius: 1rem;
 }
-.images-1{/*
-border-top-left-radius: 1rem;
-border-top-right-radius: 1rem;
-border-bottom-left-radius: 0px;
-*/
+.images-1{
 display: none;
 }
 .images-3{
-  /*
-border-bottom-left-radius: 1rem;
-border-bottom-right-radius: 1rem;
-border-top-right-radius: 0px;
-*/
+  
 display: none;
 }
 .image-1{
@@ -501,66 +489,8 @@ display: none;
   display: flex;
 }
 .border{
-  display: none;
-  flex-direction: column;
-  padding-inline: 1em;
- padding-block: 1rem;
- gap: 1rem;
+  padding-inline: 0.5em;
 }
-
-/*Fix all the css properties and delete unnecessary ones*/
-
-
-     .animation{
-	     display: flex;
-         place-self: center;
-         place-content: center;
-        padding-block: 50%;
-         gap: 1rem;
-         margin-block: 2rem;
-         padding-inline: 50%;
-         inline-size: 50%;
-         position: relative;
-
-     }
-     .das{
-		color: blue;
-	}
-    .dsa:hover{
-    transform: scale(1.1) translateX(-120px);
-    
-    }
-    .dice:hover{
-    transform: scale(1.1) translateX(180px);
-    }
-     .dsa{
-		color: red;
-	}
-     .dice{
-     color: yellow;
-     background-color: blue;
-
-     }
-     
-     .box-2{
-        place-self: center;
-     }
-     .as{
-     	
-              place-self: center;
-              display: flex;
-              border: 1px solid;
-              place-content: center;
-              padding: 1em;
-              block-size: 95%;
-              inline-size: 55%;
-              position: absolute;
-              backface-visibility: hidden;
-              border-radius: 1rem;
-			  transition: transform 2s ease;
-        padding: 2em;
-
-				
-     }
-
+/*Fix all the css pro
+perties for mobile size*/
 }
