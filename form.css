@@ -246,6 +246,10 @@ grid-template-columns: repeat(4, 1fr);
   cursor: pointer;
   padding-inline: 0.5rem;
 }
+.kyler{
+  margin-block-start: 2rem;
+  margin-inline-start: 2rem;
+}
 .setting{
   display: flex;
   inline-size: 0;
