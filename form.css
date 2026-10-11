@@ -430,6 +430,7 @@ padding-inline: 0.5rem;
   padding-block-start: 1em;
   padding-inline: 2em;
   block-size: 4rem;
+  margin: 0px;
 }
 .footer2{
   display: flex;
