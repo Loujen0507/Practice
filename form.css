@@ -299,9 +299,8 @@ grid-template-columns: repeat(4, 1fr);
  main{
 padding-inline: 1rem;
 background-color: rgb(231, 216, 191);
-  border: 1px solid rgb(2, 2, 2);
   max-inline-size: 100%;
-  block-size: 100%;
+  margin-block-start: 2rem;
  }
 body{
   border: 1px solid;
@@ -419,6 +418,7 @@ padding-inline: 0.5rem;
 }
 .base{
   inline-size: 50%;
+  margin-block-start: 0px;
 }
 .product{
   font-size: 0.87em;
@@ -427,9 +427,8 @@ padding-inline: 0.5rem;
   place-self: center;
 }
 .kyler{
-  padding-block-start: 1em;
+  padding-block-start: 3em;
   padding-inline: 2em;
-  block-size: 4rem;
   margin: 0px;
 }
 .footer2{
@@ -477,7 +476,7 @@ display: none;
   font-size: 1.2rem;
   }
 .straw{
-  margin-block-start: 1rem;
+  margin-block-start: 0px;
   background-color: rgba(5, 5, 5, 0.873);
   color:rgba(240, 248, 255, 0.833);
 }
