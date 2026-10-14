@@ -12,6 +12,7 @@
     margin: 1rem;
    }
  main{
+    block-size: 100%;
     max-inline-size: 85%;
 padding-inline: 3rem;
 background-color: rgb(231, 216, 191);
@@ -28,13 +29,11 @@ header{
   display: flex;
   block-size: 60px;
   background-color: rgb(1, 1, 1);
-  inline-size: 100%;
 position: fixed;
 top: 0%;
 right: 0%;
 left: 0%;
 }
-
 .menu{
   font-size: 1rem;  
   margin-block: 1.7rem;
@@ -74,11 +73,13 @@ border-top-right-radius: 2rem;
 border-bottom-right-radius: 2rem;
 }
 .imageAll{
+  inline-size: 100%;
   border: 1px solid;
 }
 .image-1{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.1rem;
 }
 .main-header{
   text-align: center;
@@ -258,12 +259,14 @@ grid-template-columns: repeat(4, 1fr);
   inline-size: 0;
   cursor: default;
   place-content: end;
-  padding-inline: 0.5em;
+  padding-inline: 0.2em;
   padding-block: 0.6em;
   color:rgb(180, 175, 175);
   text-decoration: none;
   font-size: 1.3em;
-  inline-size: 84%;
+  inline-size: 68%;
+  place-self: flex-end;
+
 }
 .aside1{
   text-align: center;
@@ -391,6 +394,9 @@ left: 0%;
   padding-inline-start: 0px;
   background-color: rgba(37, 38, 38, 0.833);
   margin-block: 0px;
+}
+.main-address{
+  padding-inline-start: 1em;
 }
 .sites{
   display: flex;
