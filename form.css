@@ -201,10 +201,14 @@ grid-template-columns: repeat(4, 1fr);
   margin-inline: 1rem;
   list-style: none;
 }
+.link-sites:hover{
+  color: rgb(238, 233, 233);
+}
 .link-sites{
   text-decoration: none;
   font-size: 1.1em;
   padding: 0.5em;
+  color:rgb(111, 131, 128);
 }
   .add1{
     margin-block-start: 10px;
