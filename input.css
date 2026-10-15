@@ -1,0 +1,144 @@
+
+.ty{
+ color: red;
+}
+.rr{
+  padding: 2px;
+  border: 2px solid;
+ border-radius: 10px;
+}
+.rl{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  width: 90%;
+  max-width: 320px;
+  border: none;
+}
+.ro{
+  display: flex;
+  gap: 5px;
+}
+.ll{
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+}
+
+  .rl{
+    max-width: 100%;
+    border: 2px solid;
+    background-color: rgba(246, 249, 249, 0.793);
+    border-radius: 20px;
+    margin: 3px auto;
+    border-bottom: 1px solid;
+  }
+.rr{
+    border: none;
+  padding: 2rem;
+ }
+.mafle{
+    gap: 10px;
+  }
+
+  .flex{
+    padding-block: 10px;
+     margin: 0px auto 15px ;
+  }
+.flex{
+  flex-wrap: wrap;
+}
+ .fieldset3{
+  display: flex;
+  place-items: center;
+  place-content: center;
+  gap: 0.8em;
+   padding-block-start: 10px;
+   padding-inline: 1.5rem;
+    border: 2px solid;
+    background-color: rgba(246, 249, 249, 0.793);
+    border-radius: 20px;
+    place-self: center;
+    border-top: 1px solid;
+  }
+ .rt{
+  height: 25px;
+  margin-block: 5px;
+ }
+.lopp{
+    margin-inline-start: 25px;
+  }
+  .ops{
+    display: flex;
+    /*padding-inline-start: 90%;*/
+    place-content: flex-end;
+  }
+.love{
+  border-radius: 7px;
+  border: 1px solid;
+  padding: 0.2rem 0.5rem;
+  margin-inline: 0.8rem;
+  width: 100%;
+}
+ main{
+    max-inline-size: 82%;
+padding-block: 1rem;
+padding-inline: 3rem;
+background-color: rgb(231, 216, 191);
+  margin-block-start: 2.5rem;
+  border: 1px solid black;
+ }
+  body{
+    background-color: rgb(222, 223, 208);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-block-size: 100vh;
+  }
+hr{
+  background-color: black;
+  height: 2px;
+  border: none;
+}
+.qq{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+  border: 1px solid rgb(150, 133, 133);
+  height: 30px;
+  width: 100%;
+  max-width: 60px;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.qq:hover{
+  transform: scale(1.1);
+  color: white;
+  background-color:red;
+  box-shadow: 0px 1px 2px 1px rgb(218, 203, 203);
+  border: none;
+}
+.qq:active{
+  background-color: skyblue;
+  color:black;
+}
+
+.kt{
+    text-indent: 15px;
+    font-size: 17px;
+  }
+.qq{
+    background-color: blue;
+    padding-inline: 0.4rem;
+    padding-block: 0.5rem;
+    max-width: 5rem;
+    border-radius: 9px;
+    display: flex;
+    place-items: center;
+    place-content: center;
+  font-size: large;
+  font-style: normal;
+  height: auto;
+  }
