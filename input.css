@@ -7,14 +7,6 @@
   border: 2px solid;
  border-radius: 10px;
 }
-.rl{
-  display:flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  width: 90%;
-  max-width: 320px;
-  border: none;
-}
 .ro{
   display: flex;
   gap: 5px;
@@ -26,16 +18,16 @@
 
   .rl{
     border: 2px solid;
+
     background-color: rgba(246, 249, 249, 0.793);
     border-radius: 20px;
     border-bottom: 1px solid;
     margin: 3px auto;
 
-    max-block-size: 50%;
+    max-block-size: 100%;
   }
 .rr{
     border: 1px solid;
-    max-block-size: 100%;
   padding: 2rem;
  }
 .mafle{
