@@ -47,7 +47,6 @@ gap: 0.5em;
  color: red;
 }
 .flex{
-  border: 1px solid orange;
   min-height: 100%;
 
 }
@@ -75,6 +74,7 @@ gap: 0.5em;
     display: flex;
     /*padding-inline-start: 90%;*/
     place-content: flex-end;
+    place-items: center;
   }
  main{
   padding-block: 1rem;
@@ -87,21 +87,17 @@ background-color: rgb(231, 216, 191);
     background-color: rgb(222, 223, 208);
     min-block-size: 100vh;
   }
-.qq{
-  background-color: blue;
-  color: white;
-  cursor: pointer;
-  border-radius: 2px;
-  border: 1px solid rgb(150, 133, 133);
-  height: 30px;
-  width: 100%;
-  max-width: 60px;
-  display: block;
-  transition: transform 0.3s ease-in-out;
-  margin-bottom: 10px;
-  font-size: 15px;
-  font-weight: bold;
-}
+  .qq{
+    background-color: blue;
+    color: rgb(206, 198, 198);
+    padding-inline: 0.4rem;
+    padding-block: 0.5rem;
+    border-radius: 8px;
+    font-size: medium;
+    display: block;
+    font-weight: bold;
+  }
+
 .qq:hover{
   transform: scale(1.1);
   color: white;
@@ -117,17 +113,4 @@ background-color: rgb(231, 216, 191);
 .kt{
     text-indent: 15px;
     font-size: 17px;
-  }
-.qq{
-    background-color: blue;
-    padding-inline: 0.4rem;
-    padding-block: 0.5rem;
-    max-width: 5rem;
-    border-radius: 9px;
-    display: flex;
-    place-items: center;
-    place-content: center;
-  font-size: large;
-  font-style: normal;
-  height: auto;
   }
