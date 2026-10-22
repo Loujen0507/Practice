@@ -54,7 +54,10 @@ gap: 0.5em;
   margin-inline-start: 10px;
   margin-inline-end: 10px;
 }
-
+.plak{
+  border: 1px solid;
+  inline-size: 50%;
+}
 .mafle{
     gap: 10px;
   }
@@ -105,8 +108,16 @@ background-color: rgb(231, 216, 191);
   background-color: skyblue;
   color:black;
 }
-
+.flex{
+  display: flex;
+}
 .kt{
     text-indent: 15px;
-    font-size: 17px;
+    font-size: xx-large;
+    place-self: center;
+  border: 1px solid;
+  block-size: 50%;
+  inline-size: 50%;
+  display: flex;
+
   }
