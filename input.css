@@ -51,12 +51,7 @@ gap: 0.5em;
   gap: 5px;
 }
 .ll{
-  margin-inline-start: 10px;
-  margin-inline-end: 10px;
-}
-.plak{
-  border: 1px solid;
-  inline-size: 50%;
+margin-inline: 1rem;
 }
 .mafle{
     gap: 10px;
@@ -75,13 +70,14 @@ gap: 0.5em;
     place-content: flex-end;
     place-items: center;
   }
- main{
-  padding-block: 1rem;
-padding-inline: 3rem;
-background-color: rgb(231, 216, 191);
-  margin-block-start: 2.5rem;
-  border: 14px solid rgb(199, 30, 30);
- }
+  .flex-1{
+    border: 1px solid;
+    place-self: end;
+  }
+  form{
+    inline-size: 50%;
+    display: flex;
+  }
   body{
     background-color: rgb(222, 223, 208);
     min-block-size: 100vh;
@@ -110,14 +106,15 @@ background-color: rgb(231, 216, 191);
 }
 .flex{
   display: flex;
+  border: 1px solid;
+  block-size: 100%;
 }
 .kt{
     text-indent: 15px;
     font-size: xx-large;
     place-self: center;
   border: 1px solid;
-  block-size: 50%;
-  inline-size: 50%;
-  display: flex;
-
+    margin-inline: 0.8rem;
+    inline-size: 50%;
+    block-size: 19rem;
   }
