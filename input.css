@@ -5,7 +5,8 @@
 border: 1px solid;
 border-radius: 1em;
 margin-block-end: 1rem;
-inline-size: 30%;
+inline-size: 50%;
+
 display: flex;
 place-self: center;
 flex-direction: column;
@@ -71,11 +72,13 @@ margin-inline: 1rem;
     place-items: center;
   }
   .flex-1{
-    border: 1px solid;
-    place-self: end;
+    border: 1px solid red;
+    inline-size: 100%;
+    place-content: center;
+    display: flex;
+
   }
   form{
-    inline-size: 50%;
     display: flex;
   }
   body{
@@ -105,9 +108,9 @@ margin-inline: 1rem;
   color:black;
 }
 .flex{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   border: 1px solid;
-  block-size: 100%;
 }
 .kt{
     text-indent: 15px;
