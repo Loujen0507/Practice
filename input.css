@@ -1,17 +1,24 @@
 *{
   box-sizing: border-box;
 }
+.account{
+  font: bold xx-large normal;
+  place-self: center;
+  color: rgb(188, 235, 16);
+}
 .rl{
+  background: linear-gradient(darkgreen,black, darkgreen);
 border: 1px solid;
 border-radius: 1em;
-margin-block: 1rem;
-inline-size: 50%;
+inline-size: 60%;
 display: flex;
 place-self: center;
 flex-direction: column;
 padding-inline: 3rem;
-padding-block: 2rem;
+padding-block-end: 3rem;
 gap: 0.5em;
+color: white;
+block-size: 80%;
 }
 main{
   border: 1px solid yellow;
@@ -39,7 +46,6 @@ body{
   gap: 3px;
 }
 .name{
-  padding-block: 0.3em;
   font-weight: bold;
 }
 .rr{
@@ -76,25 +82,15 @@ place-self: center;
   }
   .ops{
     display: flex;
-    /*padding-inline-start: 90%;*/
-    place-content: flex-end;
-    place-items: center;
-  }
-  .flex-1{
-    border: 1px solid red;
-    inline-size: 100%;
-    place-content: center;
-    display: flex;
-
-  }
-  form{
-    display: flex;
-  }
-  body{
+    place-items: center;   
     background-color: rgb(222, 223, 208);
-    min-block-size: 100vh;
+    place-content: flex-end;
+    margin-block-start: 1em;
   }
+  
   .qq{
+    place-content: flex-end;
+
     background-color: blue;
     color: rgb(206, 198, 198);
     padding-inline: 0.4rem;
@@ -103,6 +99,19 @@ place-self: center;
     font-size: medium;
     display: block;
     font-weight: bold;
+  }
+  .flex-1{
+    border: 1px solid red;
+    inline-size: 100%;
+    place-content: center;
+
+  }
+  form{
+    display: flex;
+  }
+  body{
+    background-color: rgb(222, 223, 208);
+    min-block-size: 100vh;
   }
 
 .qq:hover{
@@ -119,14 +128,18 @@ place-self: center;
 .flex{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  block-size: 100%;
+  block-size: 90%;
   margin-block-start:2rem;
   border: 1px solid;
 }
 .kt{
     text-indent: 1rem;
     font-size: xx-large;
+    padding: 1em;
+    display: flex;
+    place-items: center;
     place-self: center;
   border: 1px solid;
-    inline-size: 50%;
+    block-size: 85%;
+  inline-size: 70%;
   }

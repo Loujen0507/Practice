@@ -15,12 +15,12 @@
     block-size: 100%;
     max-inline-size: 85%;
 padding-inline: 3rem;
-background-color: rgb(231, 216, 191);
+background-color: rgb(236, 230, 221);
   margin-block-start: 2.5rem;
   border: 1px solid black;
  }
   body{
-    background-color: rgb(222, 223, 208);
+    background-color: rgb(227, 247, 223);
     min-block-size: 100vh;
     margin: 0px;
 
@@ -54,8 +54,8 @@ left: 0%;
   display: none;
 }
 .sidebar{
-  background: linear-gradient(to top,rgb(238, 180, 180),
-   rgb(26, 101, 11), rgb(112, 139, 112));
+  padding-block: 0.3em;
+  background: rgb(248, 239, 203);
   margin-inline-end: 0.5em;
   border-top-right-radius: 10px;
   margin-block-start: 2.4rem;
@@ -214,11 +214,11 @@ grid-template-columns: repeat(4, 1fr);
     margin-block-start: 10px;
     inline-size: 90%;
     margin-inline: 1em;
-    block-size: 1.8rem;
+    block-size: 1.9rem;
     border-radius: 5px;
-    border: none;
     padding-inline: 0.5rem;
     color: black;
+    border: 1px solid grey;
   }
   .add2{
     padding-inline: 1rem;
@@ -229,11 +229,12 @@ grid-template-columns: repeat(4, 1fr);
 
 }
 .menu:hover{
-  color: rgb(238, 233, 233);
+  color: rgb(85, 69, 211);
+  font-weight: bold;
   transform: scale(1.1);
   transform: translateX(5px);
-  box-shadow: 0px 1px 2px 1px rgb(218, 203, 203);
   inline-size: 90%;
+  text-decoration: underline;
 }
 .menu:active{
   color:rgb(6, 52, 139);
