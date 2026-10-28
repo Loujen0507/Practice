@@ -3,47 +3,13 @@
   text-align: justify;
   font-family: Arial;
 }
-/*pc size*/
-.kt{
-    text-indent: 15px;
-    font-size: 17px; 
-  }
-.div-last{
-    margin: 1rem;
-   }
- main{
-    block-size: 100%;
-    max-inline-size: 85%;
-padding-inline: 3rem;
-background-color: rgb(236, 230, 221);
-  margin-block-start: 2rem;
-  border: 1px solid black;
- }
-  body{
-    background-color: rgb(227, 247, 223);
-    min-block-size: 100vh;
-    margin: 0px;
 
-  }
-header{
-  display: flex;
-  block-size: 60px;
-  background-color: rgb(1, 1, 1);
-position: fixed;
-top: 0%;
-right: 0%;
-left: 0%;
-}
-.menu{
-  font-size: 1rem;  
-  margin-block: 1.7rem;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-    cursor: pointer;
-    color: black;
-    padding-inline: 0.5rem;
-    transition: scale 3s ease-in-out;
+/*pc size*/
+/*A*/
+.aside1{
+  text-align: center;
+   margin-inline: 0.5rem;
+    display: block;
 }
 .aside-content{
   padding: 10px;
@@ -53,44 +19,46 @@ left: 0%;
 .animation{
   display: none;
 }
-.sidebar{
-  padding-block: 0.3em;
-  background: rgb(248, 239, 203);
-  margin-inline-end: 0.5em;
-  border-top-right-radius: 10px;
-  margin-block-start: 2.4rem;
-  inline-size: 35%;
-  flex-grow: 1;
+  body{
+    background-color: rgb(227, 247, 223);
+    min-block-size: 100vh;
+    margin: 0px;
+  }
+.apple:link{
+  text-decoration: none;
+  color: rgb(252, 244, 244);
 }
-.images-1{
-border-top-right-radius: 0rem;
-border-top-left-radius: 2rem;
-border-bottom-left-radius: 2rem;
+.apple:visited{
+  text-decoration: none;
+  color: rgb(86, 9, 117);
 }
-.images-3{
-border-bottom-left-radius: 0rem;
-border-top-right-radius: 2rem;
-border-bottom-right-radius: 2rem;
+.apple:hover{
+  color: rgb(255, 0, 0);
 }
-.imageAll{
-  inline-size: 100%;
-  border: 1px solid;
+  .add1{
+    margin-block-start: 10px;
+    inline-size: 90%;
+    margin-inline: 1em;
+    block-size: 1.9rem;
+    border-radius: 5px;
+    padding-inline: 0.5rem;
+    color: black;
+    border: 1px solid grey;
+  }
+  .add2{
+    padding-inline: 1rem;
+    list-style: none;
 }
-.image-1{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.1rem;
-}
-.main-header{
+.aside-content{
+  padding: 10px;
   text-align: center;
-  font-size: xx-large;
-  text-shadow: 1px 1px 1px 3px rgb(124, 118, 118);
+  font-size: large;
 }
-.main-header2{
-  text-align: center;
-  font-size: xx-large;
-  text-shadow: 1px 1px 1px 3px rgb(124, 118, 118);
-  display: none;
+/*B*/
+.base{
+  display: inline-block;
+  inline-size: 50%;
+  place-self: center;
 }
 .box-1{
   border: 1px solid;
@@ -114,8 +82,8 @@ flex-direction: row;
   padding-inline: 1em;
  padding-block: 1rem;
  margin-block-end: 1em;
-
 }
+/*C*/
 .conds{
   display: flex;
   place-content: flex-end;
@@ -123,69 +91,189 @@ flex-direction: row;
   padding-block-end: 1em;
   gap: 1rem;
 }
-.apple:link{
-  text-decoration: none;
-  color: rgb(252, 244, 244);
-}
-.apple:visited{
-  text-decoration: none;
-  color: rgb(86, 9, 117);
-}
-.apple:hover{
-  color: rgb(255, 0, 0);
-}
-.product li{
-  padding: 0.2em;
-}
-
-.product{
-  font-size: 0.87em;
-  list-style: none;
-  padding-inline: 0.8em;
-  margin-block: 0px;
-}
+/*D*/
 .da{
   margin-block-start: 4rem;
   padding: 1em; 
   display: grid;
 grid-template-columns: repeat(4, 1fr);
 }
-.qw{
-  color: rgb(249, 249, 249);
-  padding: 10px;
-  margin-block-start: 0%;
-  font-size: 1.9rem;
+.div-last{
+    margin: 1rem;
+   }
+.product li{
+  padding: 0.2em;
 }
-.base{
-  display: inline-block;
-  inline-size: 50%;
-  place-self: center;
-}
-.lou{
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-gap: 3rem;
-}
-.straw{
-  background-color: rgba(8, 8, 8, 0.873);
-  color:rgba(240, 248, 255, 0.833);
-}
+/*E*/
+
+/*F*/
 .footer1{
   display: flex;
   padding-inline: 1rem;
   background-color: rgb(39, 42, 45);
   place-content: space-between;
 }
+.firstSetting{
+  display: flex;
+  inline-size: 100%;
+}
+/*G*/
 
+/*H*/
+header{
+  display: flex;
+  block-size: 60px;
+  background-color: rgb(1, 1, 1);
+position: fixed;
+top: 0%;
+right: 0%;
+left: 0%;
+}
+/*I*/
+.images-1{
+border-top-right-radius: 0rem;
+border-top-left-radius: 2rem;
+border-bottom-left-radius: 2rem;
+}
+.images-3{
+border-bottom-left-radius: 0rem;
+border-top-right-radius: 2rem;
+border-bottom-right-radius: 2rem;
+}
+.imageAll{
+  inline-size: 100%;
+  border: 1px solid;
+}
+.image-1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.1rem;
+}
+/*J*/
+
+/*K*/
+.klo{
+  cursor: pointer;
+  padding-inline: 0.5rem;
+}
+.kyler{
+  margin-block-start: 4.5rem;
+  margin-inline-start: 3rem;
+  font: italic 3rem bold;
+  color:rgba(107, 144, 28, 0.942);
+  display: flex;
+  place-items: center;
+  place-content: center;
+}
+.kt{
+    text-indent: 15px;
+    font-size: 17px; 
+  }
+/*L*/
+.link-sites:hover{
+  color: rgb(238, 233, 233);
+}
+.link-sites{
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 0.5em;
+  color:rgb(111, 131, 128);
+}
+.let1{
+  margin-block-start: 1rem;
+  display: flex;
+}
 .logo1{
   border-radius: 4rem;
   margin: 7px;
 }
-
-.aside-content{
-  padding: 10px;
+.logo1{
+  border-radius: 4rem;
+  margin: 7px;
+}
+.lou{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 3rem;
+}
+/*M*/
+ main{
+    block-size: 100%;
+    max-inline-size: 85%;
+padding-inline: 3rem;
+background-color: rgb(236, 230, 221);
+  margin-block-start: 2rem;
+  border: 1px solid black;
+ }
+.menu{
+  font-size: 1rem;  
+  margin-block: 1.7rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+    cursor: pointer;
+    color: black;
+    padding-inline: 0.5rem;
+    transition: scale 3s ease-in-out;
+}
+.main-header{
   text-align: center;
-  font-size: large;
+  font-size: xx-large;
+  text-shadow: 1px 1px 1px 3px rgb(124, 118, 118);
+}
+.main-header2{
+  text-align: center;
+  font-size: xx-large;
+  text-shadow: 1px 1px 1px 3px rgb(124, 118, 118);
+  display: none;
+}
+.menu{
+    font-size: 1.2rem;
+}
+.menu:hover{
+  color: rgb(85, 69, 211);
+  font-weight: bold;
+  transform: scale(1.1);
+  transform: translateX(5px);
+  inline-size: 90%;
+  text-decoration: underline;
+}
+.menu:active{
+  color:rgb(6, 52, 139);
+}
+/*N*/
+
+/*O*/
+
+/*P*/
+.product{
+  font-size: 0.87em;
+  list-style: none;
+  padding-inline: 0.8em;
+  margin-block: 0px;
+}
+/*Q*/
+.qw{
+  color: rgb(249, 249, 249);
+  padding: 10px;
+  margin-block-start: 0%;
+  font-size: 1.9rem;
+}
+/*R*/
+
+/*S*/
+.straw{
+  background-color: rgba(8, 8, 8, 0.873);
+  color:rgba(240, 248, 255, 0.833);
+}
+.sidebar{
+  padding-block: 0.3em;
+  background: rgb(248, 239, 203);
+  margin-inline-end: 0.5em;
+  border-top-right-radius: 10px;
+  margin-block-start: 2.4rem;
+  inline-size: 35%;
+  flex-grow: 1;
 }
 .site{
   display: flex;
@@ -200,75 +288,15 @@ grid-template-columns: repeat(4, 1fr);
   margin-inline: 1rem;
   list-style: none;
 }
-.link-sites:hover{
-  color: rgb(238, 233, 233);
-}
-.link-sites{
-  text-decoration: none;
-  font-size: 1.1em;
-  padding: 0.5em;
-  color:rgb(111, 131, 128);
-}
-  .add1{
-    margin-block-start: 10px;
-    inline-size: 90%;
-    margin-inline: 1em;
-    block-size: 1.9rem;
-    border-radius: 5px;
-    padding-inline: 0.5rem;
-    color: black;
-    border: 1px solid grey;
-  }
-  .add2{
-    padding-inline: 1rem;
-    list-style: none;
-}
-.menu{
-    font-size: 1.2rem;
-
-}
-.menu:hover{
-  color: rgb(85, 69, 211);
-  font-weight: bold;
-  transform: scale(1.1);
-  transform: translateX(5px);
-  inline-size: 90%;
-  text-decoration: underline;
-}
-.menu:active{
-  color:rgb(6, 52, 139);
-}
-.let1{
-  display: flex;
-  margin-block-start: 1.5rem;
-}
 .span1{
   font-size: 1.2rem;
   font-weight: bold;
   margin-inline-start: 0.5rem;
 }
-.klo{
-  cursor: pointer;
-  padding-inline: 0.5rem;
-}
-.kyler{
-  margin-block-start: 4.5rem;
-  margin-inline-start: 3rem;
-  font: italic 3rem bold;
-  color:rgba(107, 144, 28, 0.942);
-  display: flex;
-  place-items: center;
-  place-content: center;
-}
-.firstSetting{
-  display: flex;
-  inline-size: 100%;
-}
 .secSetting{
   display: flex;
   inline-size: 100%;
   place-content: flex-end;
-
 }
 .setting{
   cursor: default;
@@ -277,11 +305,6 @@ grid-template-columns: repeat(4, 1fr);
   color:rgb(180, 175, 175);
   text-decoration: none;
   font-size: 1.3em;
-}
-.aside1{
-  text-align: center;
-   margin-inline: 0.5rem;
-    display: block;
 }
 @media screen and (max-width: 639px) {
 /*mobile size*/
