@@ -16,7 +16,7 @@
     max-inline-size: 85%;
 padding-inline: 3rem;
 background-color: rgb(236, 230, 221);
-  margin-block-start: 2.5rem;
+  margin-block-start: 2rem;
   border: 1px solid black;
  }
   body{
@@ -167,7 +167,6 @@ grid-template-columns: repeat(4, 1fr);
   grid-gap: 3rem;
 }
 .straw{
-  margin-block-start: 1rem;
   background-color: rgba(8, 8, 8, 0.873);
   color:rgba(240, 248, 255, 0.833);
 }
@@ -179,7 +178,7 @@ grid-template-columns: repeat(4, 1fr);
 }
 
 .logo1{
-  border-radius: 3rem;
+  border-radius: 4rem;
   margin: 7px;
 }
 
@@ -253,22 +252,31 @@ grid-template-columns: repeat(4, 1fr);
   padding-inline: 0.5rem;
 }
 .kyler{
-  margin-block-start: 2rem;
-  margin-inline-start: 2rem;
+  margin-block-start: 4.5rem;
+  margin-inline-start: 3rem;
+  font: italic 3rem bold;
+  color:rgba(107, 144, 28, 0.942);
+  display: flex;
+  place-items: center;
+  place-content: center;
+}
+.firstSetting{
+  display: flex;
+  inline-size: 100%;
+}
+.secSetting{
+  display: flex;
+  inline-size: 100%;
+  place-content: flex-end;
+
 }
 .setting{
-  display: flex;
-  inline-size: 0;
   cursor: default;
-  place-content: end;
   padding-inline: 0.2em;
   padding-block: 0.6em;
   color:rgb(180, 175, 175);
   text-decoration: none;
   font-size: 1.3em;
-  inline-size: 68%;
-  place-self: flex-end;
-
 }
 .aside1{
   text-align: center;
