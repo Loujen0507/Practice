@@ -58,8 +58,16 @@ body{
   place-content: center;
   place-items: center;
 }
+.sap{
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
 .ty{
  color: red;
+}
+.home{
+  text-decoration: none;
+  font-weight: bolder;
 }
 .ro{
   display: flex;
@@ -110,8 +118,9 @@ place-self: center;
     display: flex;
   }
   body{
-    background-color: rgb(222, 223, 208);
+    background: url('images/images.jpg'), linear-gradient(black, red);
     min-block-size: 100vh;
+    background-size: contain;
   }
 
 .qq:hover{
