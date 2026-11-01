@@ -16,7 +16,6 @@ place-self: center;
 flex-direction: column;
 padding-inline: 3rem;
 padding-block-end: 3rem;
-gap: 0.5em;
 color: white;
 block-size: 80%;
 }
@@ -35,6 +34,7 @@ body{
   border: none;
   block-size: 2rem;
   padding-inline: 1em;
+  margin-block: 0.5em;
 }
 .live{
   inline-size: 50%;
@@ -45,7 +45,11 @@ body{
   display: flex;
   gap: 3px;
 }
+.say{
+  block-size: 100%;
+}
 .name{
+  margin-block: 1em;
   font-weight: bold;
 }
 .rr{
@@ -90,24 +94,10 @@ place-self: center;
   }
   .ops{
     display: flex;
-    place-items: center;   
-    background-color: rgb(222, 223, 208);
     place-content: flex-end;
-    margin-block-start: 1em;
+    margin-block: 1em;
   }
   
-  .qq{
-    place-content: flex-end;
-
-    background-color: blue;
-    color: rgb(206, 198, 198);
-    padding-inline: 0.4rem;
-    padding-block: 0.5rem;
-    border-radius: 8px;
-    font-size: medium;
-    display: block;
-    font-weight: bold;
-  }
   .flex-1{
     border: 1px solid red;
     inline-size: 100%;
@@ -122,12 +112,34 @@ place-self: center;
     min-block-size: 100vh;
     background-size: contain;
   }
+.logIn{
+  text-align: center;
+}
+.log{
+  text-decoration: none;
+  padding-inline-start: 0.5em;
+  color: rgb(0, 0, 255);
+}
+.log:hover{
+  color: rgb(255, 0, 0);
+}
+log:visited{
+  color: rgb(128, 0, 128);
+}
 
-.qq:hover{
-  transform: scale(1.1);
+/*Back to start(delete all the properties)*/
+  .q1{
+    background-color: blue;
+    color: rgb(206, 198, 198);
+    padding-inline: 0.4rem;
+    padding-block: 0.5rem;
+    border-radius: 8px;
+    font-size: medium;
+    font-weight: bold;
+  }
+.q1:hover{
   color: white;
   background-color:red;
-  box-shadow: 0px 1px 2px 1px rgb(218, 203, 203);
   border: none;
 }
 .qq:active{
@@ -141,6 +153,7 @@ place-self: center;
   margin-block-start:2rem;
   border: 1px solid;
 }
+
 .kt{
     text-indent: 1rem;
     font-size: xx-large;
