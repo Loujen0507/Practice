@@ -8,7 +8,7 @@
 }
 .rl{
   background: linear-gradient(darkgreen,black, darkgreen);
-border: 1px solid;
+border: 2px solid black;
 border-radius: 1em;
 inline-size: 60%;
 display: flex;
@@ -20,7 +20,6 @@ color: white;
 block-size: 80%;
 }
 main{
-  border: 1px solid yellow;
 
 }
 body{
@@ -99,7 +98,6 @@ place-self: center;
   }
   
   .flex-1{
-    border: 1px solid red;
     inline-size: 100%;
     place-content: center;
 
@@ -151,10 +149,10 @@ log:visited{
   grid-template-columns: repeat(2,1fr);
   block-size: 90%;
   margin-block-start:2rem;
-  border: 1px solid;
 }
 
 .kt{
+  /*Fix the background-image and the layout*/
     text-indent: 1rem;
     font-size: xx-large;
     padding: 1em;
@@ -163,5 +161,6 @@ log:visited{
     place-self: center;
   border: 1px solid;
     block-size: 85%;
-  inline-size: 70%;
+background-color: rgb(213, 203, 203);
+    inline-size: 70%;
   }
