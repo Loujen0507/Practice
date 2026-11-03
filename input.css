@@ -126,24 +126,6 @@ log:visited{
 }
 
 /*Back to start(delete all the properties)*/
-  .q1{
-    background-color: blue;
-    color: rgb(206, 198, 198);
-    padding-inline: 0.4rem;
-    padding-block: 0.5rem;
-    border-radius: 8px;
-    font-size: medium;
-    font-weight: bold;
-  }
-.q1:hover{
-  color: white;
-  background-color:red;
-  border: none;
-}
-.qq:active{
-  background-color: skyblue;
-  color:black;
-}
 .flex{
   display: grid;
   grid-template-columns: repeat(2,1fr);
